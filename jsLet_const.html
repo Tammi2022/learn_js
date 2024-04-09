@@ -1,0 +1,56 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="js/my_let.js"></script>
+</head>
+
+<body>
+    <!-- 以下内容是js -->
+    <h2>p 1</h2>
+    <p id="p1"> tammi </p>
+    <button type="button" onclick="f1()">click me</button>
+
+    <h2>p 2</h2>
+    <p id="p2"> tammi </p>
+    <button type="button" onclick="f2()">click me</button>
+
+    <h2>p 3</h2>
+    <p id="p3"> tammi </p>
+    <button type="button" onclick="f3()">click me</button>
+
+    <h2>p 4</h2>
+    <p id="p4"> tammi </p>
+    <p>在相同的作用域，或在相同的块中，通过 let 重新声明一个 var 变量是不允许的：</br>
+        在相同的作用域，或在相同的块中，通过 let 重新声明一个 let 变量是不允许的：
+        在相同的作用域，或在相同的块中，通过 var 重新声明一个 let 变量是不允许的：
+    </p>在不同的作用域或块中，通过 let 重新声明变量是允许的：
+    <button type="button" onclick="f4()">click me</button>
+
+    <h2>p 5</h2>
+    <p id="p5"> tammi </p>
+    <button type="button" onclick="f5()">click me</button>
+
+    <!-- 以下内容是const -->
+    <h2>p 6</h2>
+    <p id="p6"> tammi
+        通过 const 定义的变量与 let 变量类似，但不能重新赋值：</br>
+        JavaScript const 变量必须在声明时赋值：关键字 const 有一定的误导性。</br>
+        它没有定义常量值。它定义了对值的常量引用。#不是真正的常数</br>
+        因此，我们不能更改常量原始值，但我们可以更改常量对象的属性。</br>
+    </p>
+    <button type="button" onclick="f6()">click me</button>
+
+    <h2>p 7</h2>
+    <p id="p7"> tammi </p>
+    <button type="button" onclick="f7()">click me</button>
+
+    <h2>p 8</h2>
+    <p id="p8"> tammi </p>
+    <button type="button" onclick="f8()">click me</button>
+
+</body>
+
+</html>
